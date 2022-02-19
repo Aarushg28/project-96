@@ -1,0 +1,178 @@
+html, body
+{
+
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background-image: url(back1.jpg);
+background-repeat: repeat;
+
+}
+
+.header
+{
+	color: rgb(0, 0, 0);
+	font-family: 'Dongle', sans-serif;
+	font-size: 75px;
+	padding-top: 10px;
+	padding-left: 20px;
+	text-align: center;
+}
+.header img
+{
+	width: 80px;
+	margin-left :5px;
+	margin-top: -15px;
+}
+
+
+
+.login_div
+{
+	
+	margin: auto;
+	margin-top: 80px;
+	padding: 40px;
+	padding-top: 20px;
+	background: rgb(255, 255, 255);
+	float:none;
+	z-index: 100;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 380px;
+}
+
+.logo
+{
+	width: 80px;margin-top: 30px;border-radius: 40px;
+}
+
+#login_button
+{
+	width: 100%;
+	border-radius: 5px;
+}
+
+.room_name
+{
+	cursor: pointer;
+	font-size: 17px;
+}
+
+
+#logout
+{
+	font-size: 20px; 
+	float: right;
+	border-radius: 5;
+	margin-top: 7px;
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#output1{
+	padding-left: 	30px; 
+	width:100%;
+	background: rgba(255,255,255,0.8);
+	border-radius: 15px;
+	font-family: 'Poppins', sans-serif;
+	height: 270px;
+	overflow-y:scroll; 
+	overflow-x: hidden;
+}
+
+#output
+{
+	margin-top: 20px;
+	padding: 10px; 
+	width:80%;
+	background: rgba(255, 255, 255, 0.562);
+	border-radius: 5px;
+	border-color: rgba(192, 185, 185, 0.726);
+	border-width: 1px;
+	border-style: solid;
+	overflow-y:scroll; 
+	height: 120px;
+	margin-bottom: 0px;
+	
+}
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #555; 
+  }
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgb(255, 255, 255);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.input_div_message_page label
+{
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	
+}
+.input_div_message_page #msg
+{
+	width: 70%;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.input_div_message_page button
+{
+	
+	width: 10%; 
+}
+.color_white
+{
+	color: rgb(0, 0, 0)
+}
+
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:10px;color:grey;
+}
+.like_msg{
+	margin-left: 10px;
+}
+
+.div_main{
+	background-color: white;
+	height: 100%;
+	
+	margin-top: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
